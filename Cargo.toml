@@ -1,0 +1,16 @@
+[package]
+name = "mockit"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["Peter Kehl <peter.kehl@gmail.com>"]
+categories = ["development-tools"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/peter-kehl/mockit-rs"
+
+[dependencies]
+# either = "1.10.0"
+
+[features]
+mock = []
+default = ["mock"]
